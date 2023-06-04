@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap");
+
+body {
+  font-family: "Circular";
+  background-color: rgba(18, 18, 18, 1);
+}
+
+.glav_div {
+  text-align: center;
+  height: 300px;
+  width: 600px;
+  margin-left: 30%;
+  border-radius: 50px;
+
+  margin-top: 100px;
+}
+
+#img1 {
+  width: 400px;
+  color: white;
+  border-radius: 10px;
+  background-color: green;
+}
+
+.glav_div h2 {
+  color: white;
+}
+
+.edit_kar {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  color: gray;
+  font-size: 18px;
+}
+
+.edit_kar:focus {
+  outline: none;
+  border-color: #2196f3;
+  box-shadow: 0 0 5px #2196f3;
+}
+
+.edit_kar[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.edit_kar[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.edit_h4 {
+  font-size: 100px;
+}
+
+.div2 {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.edit_kar {
+  text-align: center;
+}
+
+.glav_div input {
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+}
+.glav_div button {
+  width: 200px;
+  margin-top: 30px;
+  height: 40px;
+  background-color: red;
+  border: 0;
+  border-radius: 50px;
+  color: white;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 350px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+select:focus {
+  outline: none;
+  border-color: #2196f3;
+  box-shadow: 0 0 5px #2196f3;
+}
+
+option {
+  padding: 8px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #000;
+}
+
+option:hover {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+option:checked {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.edit_btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit_btn:hover {
+  background-color: green;
+}
+
+.edit_btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px green;
+}
+
+.edit_btn:active {
+  background-color: green;
+}

@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.container {
+  position: fixed;
+  width: 23%;
+  top: 0;
+  left: 1%;
+  margin-top: 20px;
+  color: aliceblue;
+}
+.container_top {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  background-color: rgba(18, 18, 18, 1);
+  border-radius: 15px;
+}
+.container_top h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+
+.container_top_in {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container_top_in div {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.container_top_in div:hover img {
+  opacity: 1;
+}
+.container_top_in div:hover h3 {
+  opacity: 1;
+}
+.container_top_in img {
+  margin: 0 10px;
+  opacity: 0.6;
+}
+
+.container_bottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60vh;
+  border-radius: 15px;
+  margin-top: 20px;
+  background-color: rgba(18, 18, 18, 1);
+}
+.container_bottom_nav div {
+  display: flex;
+  align-items: center;
+}
+.container_bottom_nav h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+.container_bottom_nav {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.container_bottom_nav div img {
+  width: 20px;
+}
+.container_bottom_nav div img:first-child {
+  margin-right: 5px;
+}
+.playList {
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 35px;
+  border-radius: 25px;
+  background-color: rgba(206, 194, 194, 0.464);
+  font-family: "Open Sans", sans-serif;
+}
+.filter_line {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+.filter_line div {
+  display: flex;
+  align-items: center;
+}
+.playList_line {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  margin: 10px 20px;
+  background-color: black;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.playList_line:hover {
+  background-color: rgba(10, 10, 10, 0.826);
+  transition: all 0.4s ease-in-out;
+}
+.playList_line img {
+  margin-left: 10px;
+}
+.playList_line h3 {
+  margin-left: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+.playList_line h4 {
+  margin-left: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 200;
+}
+@media (max-width: 1024px) {
+  .container_top {
+    height: 20vh;
+  }
+}
+@media (max-width: 700px) {
+  .container_bottom {
+    height: 30%;
+  }
+  .playList_line {
+    margin: 0 auto;
+    width: 95%;
+  }
+}
+
+@media (max-width: 770px) {
+  .container_bottom_nav h3 {
+    display: none;
+  }
+  .playList_line {
+    margin: 0 auto;
+    width: 95%;
+  }
+}
+@media (max-width: 430px) {
+  .container {
+    display: none;
+  }
+}

@@ -1,0 +1,43 @@
+/* AudioPlayer.css */
+
+/* Классы для стилизации компонента AudioPlayer */
+.container {
+  background-color: #1e3c5c;
+  color: aqua;
+}
+.audio-player {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
+
+.audio-player h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.audio-player button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.audio-player button:hover {
+  background-color: #0056b3;
+}
+
+.audio-player input[type="range"] {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.audio-player label {
+  display: block;
+  margin-bottom: 5px;
+}

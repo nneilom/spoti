@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.component {
+  background-color: rgba(18, 18, 18, 1);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2vh 0;
+  color: aliceblue;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 15px;
+  position: fixed;
+  bottom: 0;
+}
+.musicCover {
+  width: 60px;
+  margin: 0 1em;
+}
+.songInfo {
+  display: flex;
+  align-items: center;
+}
+.songInfo div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.playButton {
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  margin: 0 20px;
+}
+.playButton_1 {
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  margin: 0 20px;
+}
+.playButton_1 img {
+  width: 50px;
+}
+.playButton img {
+  width: 20px;
+}
+
+.songLine {
+  /* width: 500px; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* background-color: aquamarine; */
+}
+.songLine div {
+  /* width: 100%; */
+  display: flex;
+
+  /* justify-content: space-between; */
+}
+
+.songTimeLine {
+  justify-content: space-evenly;
+  width: 100%;
+  display: flex;
+}
+
+.linetime {
+  width: 600px;
+  color: aqua;
+}
+.rightLineSong {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+.rightLineSong img {
+  width: 1.5em;
+  margin: 1em;
+}

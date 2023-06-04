@@ -1,0 +1,68 @@
+.artistBlock {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px 25px;
+}
+
+.cardPreview {
+  align-items: center;
+  /* width: 92%; */
+  background-color: #8080804d;
+  border-radius: 5px;
+  display: flex;
+  height: 85px;
+  align-content: center;
+}
+.cardPreview img {
+  width: 80px;
+  height: 85px;
+  border-radius: 5px 0px 0px 5px;
+  object-fit: cover;
+}
+.cardPreview p {
+  margin: 0 15px;
+  width: 130px;
+}
+
+.cardPreview:hover {
+  background-color: #222;
+}
+
+.cardPreview:hover .icon_play {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.icon_play {
+  position: relative;
+  top: 0;
+  left: 30px;
+  height: 50px;
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.circle_play {
+  width: 3rem;
+  height: 3rem;
+  background-color: rgb(50, 233, 50);
+  border-radius: 50%;
+  transform: scale(0.95);
+  display: grid;
+  place-items: center;
+}
+
+.triangle_play {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 18px solid black;
+  transform: rotate(90deg);
+  margin-left: 0.2rem;
+}
+
+.icon_play:hover .circle_play {
+  transform: scale(1);
+  cursor: auto;
+}

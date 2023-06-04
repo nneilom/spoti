@@ -1,0 +1,78 @@
+.albumCard {
+  border-radius: 0.3rem;
+  padding: 1rem;
+  background-color: #111;
+  position: relative;
+  transition: all 0.4s;
+  cursor: pointer;
+  height: 350px;
+}
+
+.albumCard h2 {
+  font-size: 1.2rem;
+}
+.albumCard p {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  color: gray;
+  font-weight: 500;
+}
+
+.albumCard .imgHolder {
+  width: 200px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 0.3rem;
+}
+
+.albumCard:hover .play_icon {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.text {
+  line-height: 1;
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.play_icon {
+  position: absolute;
+  top: 45%;
+  right: 10%;
+  transform: translateY(10px);
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.play_icon:hover .circle {
+  transform: scale(1);
+  cursor: auto;
+}
+
+.circle {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: rgb(50, 233, 50);
+  border-radius: 50%;
+  transform: scale(0.95);
+  display: grid;
+  place-items: center;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 18px solid black;
+  transform: rotate(90deg);
+  margin-left: 0.2rem;
+}
+
+.play_icon:hover .circle {
+  transform: scale(1);
+  cursor: auto;
+}
